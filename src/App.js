@@ -3,8 +3,13 @@ import './App.scss';
 
 const App = () => {
   return (
-    <div className="App">
-      CLEAN SLATE
+    <div className="app">
+
+      <section className="header">
+        Will Sinn
+        This is the page's header
+      </section>
+      
     </div>
   );
 }
