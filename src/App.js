@@ -4,7 +4,7 @@ import './App.scss';
 const App = () => {
   return (
     <div className="app">
-
+      Navigation
       <section className="header">
         Will Sinn
         This is the page's header
