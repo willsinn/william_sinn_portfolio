@@ -12,9 +12,6 @@
   color: #2d3748;
 }
 
-.skillset {
-  
-}
 
 .projects {
   
@@ -100,7 +97,7 @@ h1 {
 
 
 
-//ABOUT
+//ABOUT STARTS
 
 .about-img {
   height: 350px;
@@ -109,3 +106,38 @@ h1 {
   background-position: center;
   background-repeat: none;
 }
+
+//ABOUT ENDS
+
+
+//SKILL - SKILL TV STARTS
+
+.skillset {
+  min-height: 80vh;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skill-tv {
+  width: 90%;
+  min-height: 300px; //make sure to update with monitor height
+  max-width: 800px;
+  position: relative;
+  border: 2px solid yellow;
+  border-radius: 3px;
+  background-color: lightblue;
+}
+
+.monitor {
+  height: 260px; //make sure to update with skill-tv height
+  width: 94%;
+  position: relative;
+  left: 3%;
+  margin-top: 3%;
+  border: 2px solid yellow;
+  background-color: green;
+}
+
+//SKILL - SKILL TV ENDS

@@ -31,7 +31,19 @@ const App = () => {
       </section>
 
       <section className="skillset">
-        This is where my skills go
+      This is where my skills go
+
+        <div className="skill-tv">
+          <div className="monitor"></div>
+          <span>the skill tv</span>
+        </div>
+        <ul>
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+        </ul>
+
       </section>
 
       <section className="projects">
