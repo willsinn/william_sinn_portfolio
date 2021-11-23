@@ -1,7 +1,11 @@
+:root {
+  --title-color: yellow;
+  --subtitle-color: black;
+}
+
 $base-color: #c6538c;
 $border-dark: rgba($base-color, 0.88);
-$title-color: yellow;
-$subtitle-color: black;
+
 
 .app {
   text-align: center;
@@ -40,12 +44,8 @@ $subtitle-color: black;
   font-family: 'Poppins', sans-serif;
 }
 
-.header-title {
-  color: $title-color;
-}
-
-.header-subtitle {
-  color: $subtitle-color;
+h1 {
+  color: var(--title-color);
 }
 
 .wrapper{
@@ -54,10 +54,11 @@ $subtitle-color: black;
 }
 
 .wrapper .static-txt{
-  color: #fff;
+  color: white;
   font-size: 60px;
   font-weight: 400;
 }
+
 .wrapper .dynamic-txts{
   margin-left: 15px;
   height: 90px;
