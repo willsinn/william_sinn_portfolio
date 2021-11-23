@@ -25,16 +25,6 @@ const App = () => {
 
       <section className="about">
         <h1>My Story</h1>
-
-        <ul>
-          <li className="show">M</li>
-          <li className="show">Y</li>
-          <li className="spaced show">S</li>
-          <li className="show">T</li>
-          <li className="show">O</li>
-          <li className="show">R</li>
-          <li className="show">Y</li>
-        </ul>
         <p>{About.summary}</p>
       </section>
 
