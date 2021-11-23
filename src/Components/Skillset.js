@@ -11,13 +11,14 @@ const Skillset = () => {
     const [active, setActive] = useState("")
 
     const handleHover = (skill) => {
-        console.log(active)
         setActive(skill)    
     }
     return (
         <section className="skillset">
             <div className="skill-tv">
-            <div className="monitor"></div>
+            <div className="monitor">
+                { active ? "HI" : "NO HI" }
+            </div>
                 <span>the skill tv</span>
             </div>
             <ul className="skill-icons">
