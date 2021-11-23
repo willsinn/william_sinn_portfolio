@@ -1,12 +1,18 @@
 $base-color: #c6538c;
 $border-dark: rgba($base-color, 0.88);
+$title-color: yellow;
+$subtitle-color: black;
 
 .app {
   text-align: center;
 }
 
 .header {
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #343F4F;
 }
 
 .about {
@@ -33,16 +39,20 @@ $border-dark: rgba($base-color, 0.88);
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-body{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  background: #343F4F;
+
+.header-title {
+  color: $title-color;
 }
+
+.header-subtitle {
+  color: $subtitle-color;
+}
+
 .wrapper{
   display: flex;
+  flex-direction: column;
 }
+
 .wrapper .static-txt{
   color: #fff;
   font-size: 60px;
