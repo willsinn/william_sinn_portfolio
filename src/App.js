@@ -1,12 +1,15 @@
 import React from 'react';
 import Navbar from './Components/Navbar';
 import './App.scss';
-import { AboutData } from './Assets/content';
+import { About } from './Assets/content';
 
 const App = () => {
 
-  const splitAboutTitle = () => {
-    
+  const splitAboutTitle = (title) => {
+    const splitTitle = [];
+    title.forEach((letter, i) => {
+      
+    });
   }
   return (
     <div className="app">
@@ -30,7 +33,7 @@ const App = () => {
         <ul>
 
         </ul>
-        {AboutData.summary}
+        {About.summary}
       </section>
 
       <section className="skillset">
