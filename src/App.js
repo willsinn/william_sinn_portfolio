@@ -8,8 +8,17 @@ const App = () => {
       Navigation
       <Navbar />
       <section className="header">
-        Will Sinn
-        This is the page's header
+        <h1 className="wrapper">
+          <div className="static-txt">Will Sinn</div>
+          Developer
+          <ul class="dynamic-txts">
+            <li><span>YouTuber</span></li>
+            <li><span>Designer</span></li>
+            <li><span>Developer</span></li>
+            <li><span>Freelancer</span></li>
+          </ul>
+        </h1>
+        
       </section>
 
       <section className="about">
