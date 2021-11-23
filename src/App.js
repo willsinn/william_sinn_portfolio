@@ -24,6 +24,8 @@ const App = () => {
       </section>
 
       <section className="about">
+        <h1>My Story</h1>
+
         <ul>
           <li className="show">M</li>
           <li className="show">Y</li>
@@ -33,7 +35,7 @@ const App = () => {
           <li className="show">R</li>
           <li className="show">Y</li>
         </ul>
-        {About.summary}
+        <p>{About.summary}</p>
       </section>
 
       <section className="skillset">

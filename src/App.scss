@@ -3,24 +3,16 @@
   --subtitle-color: black;
 }
 
-$base-color: #c6538c;
-$border-dark: rgba($base-color, 0.88);
-
 
 .app {
   text-align: center;
 }
 
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  background: #343F4F;
-}
+
 
 .about {
-  
+  background: #edf2f7;
+  color: #2d3748;
 }
 
 .skillset {
@@ -34,8 +26,16 @@ $border-dark: rgba($base-color, 0.88);
 
 
 
+//HEADER - TYPEWRITER ANIMATION STARTS
 
-//TYPEWRITER ANIMATION STARTS
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #343F4F;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
   margin: 0;
@@ -101,4 +101,7 @@ h1 {
     left: 0;
   }
 }
-//TYPEWRITER ANIMATION ENDS
+//HEADER - TYPEWRITER ANIMATION ENDS
+
+
+
