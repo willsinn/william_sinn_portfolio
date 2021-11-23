@@ -5,12 +5,6 @@ import { About } from './Assets/content';
 
 const App = () => {
 
-  const splitAboutTitle = (title) => {
-    const splitTitle = [];
-    title.forEach((letter, i) => {
-      
-    });
-  }
   return (
     <div className="app">
       <Navbar />
@@ -31,7 +25,13 @@ const App = () => {
 
       <section className="about">
         <ul>
-
+          <li className="show">M</li>
+          <li className="show">Y</li>
+          <li className="spaced show">S</li>
+          <li className="show">T</li>
+          <li className="show">O</li>
+          <li className="show">R</li>
+          <li className="show">Y</li>
         </ul>
         {About.summary}
       </section>
