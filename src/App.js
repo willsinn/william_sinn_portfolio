@@ -3,6 +3,7 @@ import Navbar from './Components/Navbar';
 import './App.scss';
 import { About } from './Assets/content';
 import AboutBackground from "./Assets/about-background.png";
+import JS from "./Assets/Icons/js.png";
 
 const App = () => {
 
@@ -31,17 +32,15 @@ const App = () => {
       </section>
 
       <section className="skillset">
-      This is where my skills go
-
         <div className="skill-tv">
           <div className="monitor"></div>
           <span>the skill tv</span>
         </div>
-        <ul>
-          <li>1</li>
-          <li>2</li>
-          <li>3</li>
-          <li>4</li>
+        <ul className="skill-icons">
+          <li className="skill-icon"><span><img className="skill-icon-img" src={JS}/></span></li>
+          <li className="skill-icon"><span><img className="skill-icon-img" src={JS}/></span></li>
+          <li className="skill-icon"><span><img className="skill-icon-img" src={JS}/></span></li>
+          <li className="skill-icon"><span><img className="skill-icon-img" src={JS}/></span></li>
         </ul>
 
       </section>

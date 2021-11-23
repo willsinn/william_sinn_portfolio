@@ -110,10 +110,10 @@ h1 {
 //ABOUT ENDS
 
 
-//SKILL - SKILL TV STARTS
+//SKILL - RESPONSIVE SKILL TV STARTS
 
 .skillset {
-  min-height: 80vh;
+  min-height: 100vh;
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
@@ -140,4 +140,27 @@ h1 {
   background-color: green;
 }
 
-//SKILL - SKILL TV ENDS
+//SKILL - RESPONSIVE SKILL TV ENDS
+
+//SKILL - SKILL ICONS START
+
+.skill-icons {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.skill-icon {
+  background-color: var(--title-color);
+}
+
+.skill-icon-img {
+  height: 90px;
+  width: 90px;
+  background-image: cover;
+  background-position: center;
+  background-repeat: none;
+}  
+
+//SKILL - SKILL ICONS ENDS
