@@ -113,7 +113,7 @@ h1 {
 //SKILL - RESPONSIVE SKILL TV STARTS
 
 .skillset {
-  min-height: 100vh;
+  min-height: 80vh;
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
@@ -147,7 +147,7 @@ h1 {
 .skill-icons {
   list-style: none;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   width: 100%;
 }
 

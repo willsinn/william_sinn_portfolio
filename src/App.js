@@ -6,7 +6,6 @@ import AboutBackground from "./Assets/about-background.png";
 import JS from "./Assets/Icons/js.png";
 
 const App = () => {
-
   return (
     <div className="app">
       <Navbar />
