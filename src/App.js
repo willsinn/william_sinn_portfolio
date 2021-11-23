@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './Components/Navbar';
 import './App.scss';
 import { About } from './Assets/content';
+import AboutBackground from "./Assets/about-background.png";
 
 const App = () => {
 
@@ -25,6 +26,7 @@ const App = () => {
 
       <section className="about">
         <h1>My Story</h1>
+        <img className="about-img" src={AboutBackground}/>
         <p>{About.summary}</p>
       </section>
 
@@ -37,8 +39,7 @@ const App = () => {
         Project 2
         Project 3
         Project 4
-      </section>    
-        
+      </section>      
     </div>
   );
 }
