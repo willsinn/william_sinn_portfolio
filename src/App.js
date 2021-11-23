@@ -1,9 +1,9 @@
 import React from 'react';
 import Navbar from './Components/Navbar';
+import Skillset from './Components/Skillset';
 import './App.scss';
 import { About } from './Assets/content';
 import AboutBackground from "./Assets/about-background.png";
-import JS from "./Assets/Icons/js.png";
 
 const App = () => {
   return (
@@ -30,19 +30,7 @@ const App = () => {
         <p>{About.summary}</p>
       </section>
 
-      <section className="skillset">
-        <div className="skill-tv">
-          <div className="monitor"></div>
-          <span>the skill tv</span>
-        </div>
-        <ul className="skill-icons">
-          <li className="skill-icon"><span><img className="skill-icon-img" src={JS}/></span></li>
-          <li className="skill-icon"><span><img className="skill-icon-img" src={JS}/></span></li>
-          <li className="skill-icon"><span><img className="skill-icon-img" src={JS}/></span></li>
-          <li className="skill-icon"><span><img className="skill-icon-img" src={JS}/></span></li>
-        </ul>
-
-      </section>
+      <Skillset />
 
       <section className="projects">
         Project 1
