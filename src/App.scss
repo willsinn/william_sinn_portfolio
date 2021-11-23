@@ -71,11 +71,13 @@ h1 {
   top: 0;
   animation: slide 12s steps(4) infinite;
 }
+
 @keyframes slide {
   100%{
     top: -360px;
   }
 }
+
 .dynamic-txts li span{
   position: relative;
   margin: 5px 0;
