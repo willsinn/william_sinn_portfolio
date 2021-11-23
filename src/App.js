@@ -15,7 +15,7 @@ const App = () => {
             <div className="static-txt">
               <h1>Will Sinn</h1>
             </div>
-            <ul class="dynamic-txts">
+            <ul className="dynamic-txts">
               <li><span>YouTuber</span></li>
               <li><span>Designer</span></li>
               <li><span>Developer</span></li>
