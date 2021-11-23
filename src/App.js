@@ -1,17 +1,21 @@
 import React from 'react';
 import Navbar from './Components/Navbar';
 import './App.scss';
+import { AboutData } from './Assets/content';
 
 const App = () => {
+
+  const splitAboutTitle = () => {
+    
+  }
   return (
     <div className="app">
       <Navbar />
       <section className="header">
         <div className="wrapper">
+            <h4>Welcome! I'm ...</h4>
             <div className="static-txt">
-              <h1>
-                Will Sinn
-              </h1>
+              <h1>Will Sinn</h1>
             </div>
             <ul class="dynamic-txts">
               <li><span>YouTuber</span></li>
@@ -23,7 +27,10 @@ const App = () => {
       </section>
 
       <section className="about">
-        About Will Sinn
+        <ul>
+
+        </ul>
+        {AboutData.summary}
       </section>
 
       <section className="skillset">
