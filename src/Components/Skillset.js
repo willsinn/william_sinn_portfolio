@@ -3,21 +3,22 @@ import { useState } from 'react/cjs/react.development';
 import JS from "../Assets/Icons/js.png";
 
 
-const jsAnimations= ()=> {
-    return 
-    <div>hi</div>
-}
+
 const Skillset = () => {
     const [active, setActive] = useState("")
 
     const handleHover = (skill) => {
         setActive(skill)    
     }
+    const jsTable = <div>
+                        <div>Other Javascript frameworks and libraries that I'm comfortable with...</div>
+                        <div>REACT JS, REDUX, REACT REDUX</div>
+                    </div>
     return (
         <section className="skillset">
             <div className="skill-tv">
             <div className="monitor">
-                { active ? "HI" : "NO HI" }
+                { active ? jsTable : "NO HI" }
             </div>
                 <span>the skill tv</span>
             </div>
