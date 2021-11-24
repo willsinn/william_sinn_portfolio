@@ -3,6 +3,15 @@ import { useState } from 'react/cjs/react.development';
 import JS from "../Assets/Icons/js.png";
 
 
+const initMsg = <div>
+                    <div>Hey, Checkout My Skills Below!</div>
+                    <div>Hover over an icon for more information on each language</div>
+                </div>
+
+const jsMsg =   <div>
+                    <div>Other Javascript frameworks and libraries that I'm comfortable with...</div>
+                    <div>REACT JS, REDUX, REACT REDUX</div>
+                </div>
 
 const Skillset = () => {
     const [active, setActive] = useState("")
@@ -10,15 +19,11 @@ const Skillset = () => {
     const handleHover = (skill) => {
         setActive(skill)    
     }
-    const jsTable = <div>
-                        <div>Other Javascript frameworks and libraries that I'm comfortable with...</div>
-                        <div>REACT JS, REDUX, REACT REDUX</div>
-                    </div>
     return (
         <section className="skillset">
             <div className="skill-tv">
             <div className="monitor">
-                { active ? jsTable : "NO HI" }
+                { active ? jsMsg : initMsg }
             </div>
                 <span>the skill tv</span>
             </div>
